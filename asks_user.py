@@ -7,8 +7,9 @@
 # ========= PSEUDO CODE =========
 # || LIBRARIES/PACKAGES ||
 
+# || VARIABLES || 
 
-# || ACTUAL CODES || 
-# - HTML template in asking the user
-# - Code for collecting the data using POST and GET HTTP Method
-# - Code for running the local host
+# || ACTUAL CODE ||
+# - Data
+# - Printing the content of the json 
+# - Code for creating a json file 
