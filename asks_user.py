@@ -6,8 +6,15 @@
 
 # ========= PSEUDO CODE =========
 # || LIBRARIES/PACKAGES ||
+import json
 
 # || VARIABLES || 
+ask_user_name = input("Enter your name: ")
+ask_dream_job = input("What is your dream job?: ")
+ask_passion = input("What is your passion?: ")
+ask_skills = input("What are your skills: ")
+ask_idol_in_coding = input("Who is your professional idol in coding?: ")
+
 
 # || ACTUAL CODE ||
 # - Data
