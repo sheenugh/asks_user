@@ -27,9 +27,11 @@ users_data = {
     "Professional Idol in Coding" : ask_idol_in_coding
 }
 
-# - Printing the content of the json 
+# - Printing the data in json 
 data = json.dumps(users_data, indent=2)
 
 print(data)
 
 # - Code for creating a json file 
+with open('users_data.json', 'w') as file:
+    file.write(data)
