@@ -19,7 +19,7 @@ ask_idol_in_coding = input("Who is your professional idol in coding?: ")
 
 # || ACTUAL CODE ||
 # - Data
-users_information = {
+users_data = {
     "Name" : ask_user_name,
     "Dream Job" : ask_dream_job,
     "Passion" : ask_passion,
@@ -28,4 +28,8 @@ users_information = {
 }
 
 # - Printing the content of the json 
+data = json.dumps(users_data, indent=2)
+
+print(data)
+
 # - Code for creating a json file 
